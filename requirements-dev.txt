@@ -1,0 +1,7 @@
+# Development and pipeline tools only. The assignment code itself needs no
+# third-party packages.
+pytest
+ruff
+bandit
+pip-audit
+pre-commit

@@ -1,0 +1,8 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    { "name": "Q1 parsing", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/q1_parsing.py", "cwd": "${workspaceFolder}", "console": "integratedTerminal" },
+    { "name": "Q2 TF*IDF", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/q2_tfidf.py", "cwd": "${workspaceFolder}", "console": "integratedTerminal" },
+    { "name": "Q3 BM25", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/q3_bm25.py", "cwd": "${workspaceFolder}", "console": "integratedTerminal" }
+  ]
+}

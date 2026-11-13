@@ -1,0 +1,13 @@
+[tool.ruff]
+line-length = 100
+target-version = "py38"
+extend-exclude = ["stemming"]        # supplied with the assignment, not ours
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B", "I"]
+
+[tool.bandit]
+exclude_dirs = ["stemming", "tests", ".venv", "venv"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

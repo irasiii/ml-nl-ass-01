@@ -1,0 +1,20 @@
+# Local checks that run before every commit ("shift left").
+# Install once with:  pip install pre-commit && pre-commit install
+repos:
+  - repo: local
+    hooks:
+      - id: ruff
+        name: ruff (lint)
+        entry: ruff check .
+        language: system
+        pass_filenames: false
+      - id: bandit
+        name: bandit (security scan)
+        entry: bandit -c pyproject.toml -r . -q
+        language: system
+        pass_filenames: false
+      - id: pytest
+        name: pytest (unit tests)
+        entry: pytest -q
+        language: system
+        pass_filenames: false
