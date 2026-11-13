@@ -16,6 +16,13 @@ python make_submission.py   # runs all three and builds the submission ZIP
 Set your name and student number in `config.py` first. No third-party packages
 are needed to run the code. See `readme.txt` for the user manual.
 
+## Documentation
+
+- [docs/DOCUMENTATION.md](docs/DOCUMENTATION.md): how the solution works, the
+  formulas, design decisions, tests and pipeline.
+- [docs/HOW_TO.md](docs/HOW_TO.md): step-by-step setup, running, pushing,
+  pipeline checks and building the submission ZIP.
+
 ## DevSecOps
 
 | Stage | Tool | Where |
