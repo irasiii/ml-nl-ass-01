@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "First push to GitHub (replaces the auto-generated README commit)",
+      "type": "shell",
+      "command": "git push -u origin main --force",
+      "problemMatcher": []
+    },
+    {
+      "label": "Push to GitHub",
+      "type": "shell",
+      "command": "git push",
+      "problemMatcher": []
+    }
+  ]
+}
