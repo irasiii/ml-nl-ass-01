@@ -67,7 +67,7 @@ jobs:
           python q1_parsing.py > /dev/null
           python q2_tfidf.py > /dev/null
           python q3_bm25.py > /dev/null
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: outputs
           path: outputs/*.txt
